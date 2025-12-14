@@ -12,7 +12,7 @@
 
 **Un tableau de bord interactif d'analyse des ventes Superstore**
 
-[Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Captures d'écran](#-Capturesd'écran) • [Colab](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
+[Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Screenshots](#-Screenshots) • [Colab](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
 </div>
 
@@ -164,7 +164,7 @@ superstore-dashboard/
     └── superstore_colab.ipynb  # Version compatible Colab
 ```
 
-## 🖼️ Captures d'écran
+## 🖼️ Screenshots
 
 ### 📊 Tableau de Bord Unifié
 ![Tableau de Bord Unifié](images/full_dashboard.png)
