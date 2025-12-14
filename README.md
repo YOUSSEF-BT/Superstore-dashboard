@@ -12,7 +12,7 @@
 
 **Un tableau de bord interactif d'analyse des ventes Superstore**
 
-[Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Captures d'écran](#-captures-décran) • [Colab](#-démo-en-ligne-colab)
+[Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Captures d'écran](#-captures-décran) • [Colab](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
 </div>
 
