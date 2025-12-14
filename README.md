@@ -182,23 +182,23 @@ superstore-dashboard/
 ## 🖼️ Captures d'Écran
 
 ### 📊 Tableau de Bord Unifié
-![Tableau de Bord Unifié](images/1-dashboard-unifie.png)
+![Tableau de Bord Unifié](images/full_dashboard.png)
 *Tableau de bord complet avec les 4 visualisations synchronisées*
 
 ### 🇺🇸 Carte USA Interactive
-![Visualisation de la Carte USA](images/3-carte-usa.png)
+![Visualisation de la Carte USA](images/carte_usa.png)
 *Analyse géographique des ventes avec détails par état*
 
 ### 📈 Tendances Mensuelles des Ventes
-![Tendances Mensuelles](images/2-evolution-mensuelle.png)
+![Tendances Mensuelles](images/evo_mensuelle.png)
 *Évolution des ventes sur 4 ans avec analyse des tendances*
 
 ### 🎯 Ventilation par Catégorie
-![Analyse des Catégories](images/4-repartition-categories.png)
+![Analyse des Catégories](images/sunburst.png)
 *Diagramme Sunburst hiérarchique montrant la distribution des ventes*
 
 ### 🏆 Meilleurs Produits
-![Meilleurs Produits](images/5-top-produits.png)
+![Meilleurs Produits](images/top10.png)
 *Top 10 des produits par volume de ventes*
 
 ## 📊 Résultats d'Analyse
@@ -358,7 +358,5 @@ Fait avec ❤️ par Youssef Bouzit | [Voir Portfolio](https://github.com/YOUSSE
 
 *"Les données sont le nouveau pétrole, et la visualisation est la raffinerie"*
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
 </div>
-```
