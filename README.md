@@ -299,22 +299,6 @@ python -m pytest tests/
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-```
-Licence MIT
-
-Copyright (c) 2025 Youssef Bouzit
-
-L'autorisation est accordée, gratuitement, à toute personne obtenant une copie
-de ce logiciel et des fichiers de documentation associés (le "Logiciel"), de traiter
-dans le Logiciel sans restriction, y compris sans limitation les droits
-d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre
-des copies du Logiciel, et de permettre aux personnes auxquelles le Logiciel est
-fourni de le faire, sous réserve des conditions suivantes :
-
-L'avis de copyright ci-dessus et cet avis d'autorisation doivent être inclus dans tous
-les exemplaires ou parties substantielles du Logiciel.
-```
-
 ## 👨‍💻 Auteur
 
 **Youssef Bouzit**
