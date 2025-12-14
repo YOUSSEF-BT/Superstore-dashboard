@@ -2,11 +2,12 @@
 
 <div align="center">
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-[![Pandas](https://img.shields.io/badge/pandas-%E2%89%A51.5.0-blue)](https://pandas.pydata.org/)
-[![Plotly](https://img.shields.io/badge/plotly-%E2%89%A55.13.0-orange)](https://plotly.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-YOUSSEF--BT-blue)](https://github.com/YOUSSEF-BT)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Pandas](https://img.shields.io/badge/pandas-≥1.5.0-blue)
+![Plotly](https://img.shields.io/badge/plotly-≥5.13.0-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub](https://img.shields.io/badge/GitHub-YOUSSEF--BT-blue)
+![Status](https://img.shields.io/badge/status-active-success)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
 **Un tableau de bord interactif d'analyse des ventes Superstore**
@@ -89,17 +90,24 @@ source venv/bin/activate
 
 # 4. Installer les dépendances
 pip install -r requirements.txt
-Démarrage Rapide (Une Ligne)
-bash
+```
+
+### Démarrage Rapide (Une Ligne)
+```bash
 git clone https://github.com/YOUSSEF-BT/superstore-dashboard.git && cd superstore-dashboard && pip install -r requirements.txt && python superstore_dashboard.py
-💻 Utilisation
-Exécution de Base
-python
+```
+
+## 💻 Utilisation
+
+### Exécution de Base
+```python
 python superstore_dashboard.py
-Configuration Avancée
+```
+
+### Configuration Avancée
 Modifiez ces paramètres dans le script :
 
-python
+```python
 # Ajuster la taille du jeu de données (par défaut : 5000 lignes)
 n = 10000  # Pour un jeu de données plus grand
 
@@ -108,54 +116,45 @@ dates = pd.date_range('2015-01-01', '2020-12-31', periods=n)
 
 # Modifier la distribution des états
 available_states = ['California', 'Texas', 'New York', 'Florida']  # Personnaliser
-Export des Données
+```
+
+### Export des Données
 Le script exporte automatiquement :
+- `superstore_data_complete.csv` - Jeu de données complet
+- `superstore_summary.csv` - Métriques clés
+- `superstore_state_sales.csv` - Analyse par état
 
-superstore_data_complete.csv - Jeu de données complet
+## ☁️ Démo en Ligne (Colab)
 
-superstore_summary.csv - Métriques clés
+### Exécutez sans Installation !
 
-superstore_state_sales.csv - Analyse par état
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
-☁️ Démo en Ligne (Colab)
-Exécutez sans Installation !
-https://colab.research.google.com/assets/colab-badge.svg
+**Google Colab vous permet d'exécuter ce projet directement dans votre navigateur, sans aucune installation !**
 
-Google Colab vous permet d'exécuter ce projet directement dans votre navigateur, sans aucune installation !
+### Avantages de Colab :
+- ✅ **Pas d'installation nécessaire** - Tout fonctionne dans le cloud
+- ✅ **GPU gratuit** - Pour des calculs plus rapides
+- ✅ **Partage facile** - Partagez le notebook avec un lien
+- ✅ **Sauvegarde automatique** - Dans Google Drive
+- ✅ **Accès depuis n'importe où** - Sur n'importe quel appareil
 
-Avantages de Colab :
-✅ Pas d'installation nécessaire - Tout fonctionne dans le cloud
+### Comment utiliser la version Colab :
+1. Cliquez sur le bouton **"Open In Colab"** ci-dessus
+2. Connectez-vous avec votre compte Google
+3. Exécutez les cellules une par une (Maj+Entrée)
+4. Les graphiques s'afficheront directement dans le notebook
+5. Vous pouvez modifier le code et voir les résultats en temps réel
 
-✅ GPU gratuit - Pour des calculs plus rapides
+### Fonctionnalités Spéciales Colab :
+- Téléchargement automatique des graphiques en PNG
+- Export des données dans Google Drive
+- Possibilité d'ajouter des widgets interactifs
+- Collaboration en temps réel avec d'autres utilisateurs
 
-✅ Partage facile - Partagez le notebook avec un lien
+## 📁 Structure du Projet
 
-✅ Sauvegarde automatique - Dans Google Drive
-
-✅ Accès depuis n'importe où - Sur n'importe quel appareil
-
-Comment utiliser la version Colab :
-Cliquez sur le bouton "Open In Colab" ci-dessus
-
-Connectez-vous avec votre compte Google
-
-Exécutez les cellules une par une (Maj+Entrée)
-
-Les graphiques s'afficheront directement dans le notebook
-
-Vous pouvez modifier le code et voir les résultats en temps réel
-
-Fonctionnalités Spéciales Colab :
-Téléchargement automatique des graphiques en PNG
-
-Export des données dans Google Drive
-
-Possibilité d'ajouter des widgets interactifs
-
-Collaboration en temps réel avec d'autres utilisateurs
-
-📁 Structure du Projet
-text
+```
 superstore-dashboard/
 │
 ├── superstore_dashboard.py    # Script principal du tableau de bord
@@ -178,107 +177,106 @@ superstore-dashboard/
 │
 └── notebooks/                # Notebooks Jupyter
     └── superstore_colab.ipynb  # Version compatible Colab
-🖼️ Captures d'Écran
-📊 Tableau de Bord Unifié
-https://images/1-dashboard-unifie.png
-Tableau de bord complet avec les 4 visualisations synchronisées
+```
 
-🇺🇸 Carte USA Interactive
-https://images/3-carte-usa.png
-Analyse géographique des ventes avec détails par état
+## 🖼️ Captures d'Écran
 
-📈 Tendances Mensuelles des Ventes
-https://images/2-evolution-mensuelle.png
-Évolution des ventes sur 4 ans avec analyse des tendances
+### 📊 Tableau de Bord Unifié
+![Tableau de Bord Unifié](images/1-dashboard-unifie.png)
+*Tableau de bord complet avec les 4 visualisations synchronisées*
 
-🎯 Ventilation par Catégorie
-https://images/4-repartition-categories.png
-Diagramme Sunburst hiérarchique montrant la distribution des ventes
+### 🇺🇸 Carte USA Interactive
+![Visualisation de la Carte USA](images/3-carte-usa.png)
+*Analyse géographique des ventes avec détails par état*
 
-🏆 Meilleurs Produits
-https://images/5-top-produits.png
-Top 10 des produits par volume de ventes
+### 📈 Tendances Mensuelles des Ventes
+![Tendances Mensuelles](images/2-evolution-mensuelle.png)
+*Évolution des ventes sur 4 ans avec analyse des tendances*
 
-📊 Résultats d'Analyse
-Indicateurs Clés de Performance (KPI)
-Métrique	Valeur	Insights
-Revenu Total	$2,541,783	Performance de vente solide sur 4 ans
-Profit Total	$542,942	Rentabilité saine
-Marge Bénéficiaire	21.4%	Au-dessus de la moyenne du secteur
-Commandes Totales	5 000	Volume de commandes constant
-Valeur Moyenne par Commande	$508	Base clients premium
-Top 3 des États Performants
-Rang	État	Code	Ventes	Part de Marché
-1	Pennsylvanie	PA	$288,917	11.4%
-2	Michigan	MI	$281,424	11.1%
-3	Ohio	OH	$273,801	10.8%
-Performance par Catégorie
-text
+### 🎯 Ventilation par Catégorie
+![Analyse des Catégories](images/4-repartition-categories.png)
+*Diagramme Sunburst hiérarchique montrant la distribution des ventes*
+
+### 🏆 Meilleurs Produits
+![Meilleurs Produits](images/5-top-produits.png)
+*Top 10 des produits par volume de ventes*
+
+## 📊 Résultats d'Analyse
+
+### Indicateurs Clés de Performance (KPI)
+| Métrique | Valeur | Insights |
+|----------|--------|----------|
+| **Revenu Total** | $2,541,783 | Performance de vente solide sur 4 ans |
+| **Profit Total** | $542,942 | Rentabilité saine |
+| **Marge Bénéficiaire** | 21.4% | Au-dessus de la moyenne du secteur |
+| **Commandes Totales** | 5 000 | Volume de commandes constant |
+| **Valeur Moyenne par Commande** | $508 | Base clients premium |
+
+### Top 3 des États Performants
+| Rang | État | Code | Ventes | Part de Marché |
+|------|-------|------|--------|----------------|
+| 1 | Pennsylvanie | PA | $288,917 | 11.4% |
+| 2 | Michigan | MI | $281,424 | 11.1% |
+| 3 | Ohio | OH | $273,801 | 10.8% |
+
+### Performance par Catégorie
+```python
 Performance par Catégorie :
 • Meubles : $1,055,277 (41.5%) 🏆
 • Fournitures de Bureau : $975,465 (38.4%) 📦
 • Technologie : $511,040 (20.1%) 💻
-Meilleur Mois de Performance
-Décembre 2014 avec $67,292 en ventes
+```
 
-🛠️ Technologies Utilisées
-Technologie	Utilisation	Version
-Python	Langage de programmation principal	3.8+
-Pandas	Manipulation et analyse des données	≥1.5.0
-NumPy	Calcul numérique	≥1.24.0
-Plotly	Visualisations interactives	≥5.13.0
-Google Colab	Exécution dans le navigateur	-
-Git	Contrôle de version	-
-GitHub	Hébergement et collaboration de code	-
-🗺️ Feuille de Route
-✅ Fonctionnalités Terminées
-Génération de données synthétiques
+### Meilleur Mois de Performance
+**Décembre 2014** avec $67,292 en ventes
 
-Carte USA interactive
+## 🛠️ Technologies Utilisées
 
-Disposition du tableau de bord unifié
+| Technologie | Utilisation | Version |
+|------------|-------------|---------|
+| **Python** | Langage de programmation principal | 3.8+ |
+| **Pandas** | Manipulation et analyse des données | ≥1.5.0 |
+| **NumPy** | Calcul numérique | ≥1.24.0 |
+| **Plotly** | Visualisations interactives | ≥5.13.0 |
+| **Google Colab** | Exécution dans le navigateur | - |
+| **Git** | Contrôle de version | - |
+| **GitHub** | Hébergement et collaboration de code | - |
 
-Calculs des KPI
+## 🗺️ Feuille de Route
 
-Export des données CSV
+### ✅ **Fonctionnalités Terminées**
+- [x] Génération de données synthétiques
+- [x] Carte USA interactive
+- [x] Disposition du tableau de bord unifié
+- [x] Calculs des KPI
+- [x] Export des données CSV
+- [x] Version Google Colab
 
-Version Google Colab
+### 🔄 **En Cours**
+- [ ] Déploiement web Streamlit
+- [ ] Intégration de base de données (PostgreSQL)
+- [ ] Authentification utilisateur
+- [ ] Mises à jour en temps réel
 
-🔄 En Cours
-Déploiement web Streamlit
+### 📋 **Fonctionnalités Planifiées**
+- [ ] Options de filtrage avancées
+- [ ] Génération de rapports par email
+- [ ] Design mobile-responsive
+- [ ] Collaboration multi-utilisateurs
+- [ ] Points d'accès API pour les données
 
-Intégration de base de données (PostgreSQL)
+## 🤝 Contribution
 
-Authentification utilisateur
-
-Mises à jour en temps réel
-
-📋 Fonctionnalités Planifiées
-Options de filtrage avancées
-
-Génération de rapports par email
-
-Design mobile-responsive
-
-Collaboration multi-utilisateurs
-
-Points d'accès API pour les données
-
-🤝 Contribution
 Les contributions sont les bienvenues ! Voici comment vous pouvez aider :
 
-Fork le dépôt
+1. **Fork** le dépôt
+2. **Créez** une branche de fonctionnalité (`git checkout -b feature/AmazingFeature`)
+3. **Commit** vos changements (`git commit -m 'Ajouter AmazingFeature'`)
+4. **Push** vers la branche (`git push origin feature/AmazingFeature`)
+5. **Ouvrez** une Pull Request
 
-Créez une branche de fonctionnalité (git checkout -b feature/AmazingFeature)
-
-Commit vos changements (git commit -m 'Ajouter AmazingFeature')
-
-Push vers la branche (git push origin feature/AmazingFeature)
-
-Ouvrez une Pull Request
-
-Configuration de Développement
-bash
+### Configuration de Développement
+```bash
 # Clonez votre fork
 git clone https://github.com/VOTRE_NOM_UTILISATEUR/superstore-dashboard.git
 
@@ -289,68 +287,78 @@ pip install -r requirements.txt
 
 # Exécutez les tests
 python -m pytest tests/
-Style de Code
-Suivez les directives PEP 8
+```
 
-Utilisez des noms de variables significatifs
+### Style de Code
+- Suivez les directives PEP 8
+- Utilisez des noms de variables significatifs
+- Ajoutez des docstrings aux fonctions
+- Incluez des commentaires pour la logique complexe
 
-Ajoutez des docstrings aux fonctions
+## 📄 Licence
 
-Incluez des commentaires pour la logique complexe
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-📄 Licence
-Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
+```
+Licence MIT
 
-👨‍💻 Auteur
-Youssef Bouzit
+Copyright (c) 2025 Youssef Bouzit
+
+L'autorisation est accordée, gratuitement, à toute personne obtenant une copie
+de ce logiciel et des fichiers de documentation associés (le "Logiciel"), de traiter
+dans le Logiciel sans restriction, y compris sans limitation les droits
+d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre
+des copies du Logiciel, et de permettre aux personnes auxquelles le Logiciel est
+fourni de le faire, sous réserve des conditions suivantes :
+
+L'avis de copyright ci-dessus et cet avis d'autorisation doivent être inclus dans tous
+les exemplaires ou parties substantielles du Logiciel.
+```
+
+## 👨‍💻 Auteur
+
+**Youssef Bouzit**
 
 <div align="center">
-https://img.shields.io/badge/GitHub-YOUSSEF--BT-181717?style=for-the-badge&logo=github
-https://img.shields.io/badge/Email-bt.youssef.369%2540gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white
-https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin
-https://img.shields.io/badge/Google%2520Colab-Open%2520Notebook-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white
+
+[![GitHub](https://img.shields.io/badge/GitHub-YOUSSEF--BT-181717?style=for-the-badge&logo=github)](https://github.com/YOUSSEF-BT)
+[![Email](https://img.shields.io/badge/Email-bt.youssef.369%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bt.youssef.369@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/youssef-bouzit/)
+[![Colab](https://img.shields.io/badge/Google%20Colab-Open%20Notebook-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
 </div>
-À Propos de Moi
-🎓 Analyste de Données & Développeur Python
 
-📊 Spécialisé en visualisation de données et intelligence économique
+### À Propos de Moi
+- 🎓 **Data Analyst & Machine Learning Engineer**
+- 🚀 **Passionné** par la création de solutions basées sur les données
+- 💼 **Ouvert à** des projets freelance et collaborations
 
-🚀 Passionné par la création de solutions basées sur les données
+## 🙏 Remerciements
 
-💼 Ouvert à des projets freelance et collaborations
+- **[Plotly](https://plotly.com/)** pour des graphiques interactifs incroyables
+- **[Pandas](https://pandas.pydata.org/)** pour une manipulation puissante des données
+- **[Google Colab](https://colab.research.google.com/)** pour l'exécution dans le navigateur
+- **[GitHub](https://github.com/)** pour l'hébergement de projets
+- **La Communauté Python** pour des ressources et un soutien sans fin
 
-🌍 Basé au Maroc
+## ⭐ Support
 
-🙏 Remerciements
-Plotly pour des graphiques interactifs incroyables
-
-Pandas pour une manipulation puissante des données
-
-Google Colab pour l'exécution dans le navigateur
-
-GitHub pour l'hébergement de projets
-
-La Communauté Python pour des ressources et un soutien sans fin
-
-⭐ Support
 Si vous trouvez ce projet utile, veuillez :
+1. ⭐ **Star** le dépôt
+2. 🔀 **Fork**-le pour votre propre usage
+3. 🐛 **Signaler** tous les problèmes que vous trouvez
+4. 💬 **Partager** avec d'autres développeurs
+5. 🚀 **Essayer la version Colab** et donner votre feedback
 
-⭐ Star le dépôt
-
-🔀 Fork-le pour votre propre usage
-
-🐛 Signaler tous les problèmes que vous trouvez
-
-💬 Partager avec d'autres développeurs
-
-🚀 Essayer la version Colab et donner votre feedback
+---
 
 <div align="center">
-Fait avec ❤️ par Youssef Bouzit | Voir Portfolio
+  
+Fait avec ❤️ par Youssef Bouzit | [Voir Portfolio](https://github.com/YOUSSEF-BT)
 
-"Les données sont le nouveau pétrole, et la visualisation est la raffinerie"
+*"Les données sont le nouveau pétrole, et la visualisation est la raffinerie"*
 
-https://colab.research.google.com/assets/colab-badge.svg
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
-</div> ```
+</div>
+```
