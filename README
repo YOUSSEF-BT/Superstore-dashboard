@@ -1,7 +1,5 @@
 # **Superstore Sales Dashboard - Interactive Data Analysis **
 
-<div align="center">
-
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Pandas](https://img.shields.io/badge/pandas-≥1.5.0-blue)
 ![Plotly](https://img.shields.io/badge/plotly-≥5.13.0-orange)
@@ -14,7 +12,6 @@
 
 [Fonctionnalités](#-fonctionnalités) • [Installation](#-installation) • [Utilisation](#-utilisation) • [Captures d'écran](#-captures-décran) • [Colab](#-démo-en-ligne-colab)
 
-</div>
 
 ## 📋 Table des Matières
 - [Aperçu](#-aperçu)
@@ -363,5 +360,4 @@ Fait avec ❤️ par Youssef Bouzit | [Voir Portfolio](https://github.com/YOUSSE
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gRFe13i4QA2v8xiz0VRZ0bEVuZFAswDw?authuser=0#scrollTo=Ug9tZb_v-lwm)
 
-</div>
 ```
