@@ -16,21 +16,6 @@
 
 </div>
 
-## 📋 Table des Matières
-- [Aperçu](#-aperçu)
-- [Fonctionnalités](#-fonctionnalités)
-- [Installation](#-installation)
-- [Utilisation](#-utilisation)
-- [Démo en Ligne (Colab)](#-démo-en-ligne-colab)
-- [Structure du Projet](#-structure-du-projet)
-- [Captures d'Écran](#-captures-décran)
-- [Résultats d'Analyse](#-résultats-danalyse)
-- [Technologies Utilisées](#-technologies-utilisées)
-- [Feuille de Route](#-feuille-de-route)
-- [Contribution](#-contribution)
-- [Licence](#-licence)
-- [Contact](#-contact)
-
 ## 📊 Aperçu
 
 Ce projet est un tableau de bord complet d'analyse des ventes de détail qui analyse des données Superstore simulées de 2014 à 2017. Il propose des visualisations interactives, une analyse géographique et des insights d'intelligence économique, parfait pour la démonstration de portfolio et la pratique d'analyse de données.
