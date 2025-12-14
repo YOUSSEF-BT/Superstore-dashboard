@@ -1,4 +1,4 @@
-# 🚀 Superstore Sales Dashboard - Interactive Data Analysis
+# Superstore Sales Dashboard - Interactive Data Analysis
 
 <div align="center">
 
