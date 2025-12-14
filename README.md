@@ -164,7 +164,7 @@ superstore-dashboard/
     └── superstore_colab.ipynb  # Version compatible Colab
 ```
 
-## 🖼️ Captures d'Écran
+## 🖼️ Captures d'écran
 
 ### 📊 Tableau de Bord Unifié
 ![Tableau de Bord Unifié](images/full_dashboard.png)
